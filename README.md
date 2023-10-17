@@ -1,9 +1,17 @@
-# game_of_life
-C++17 implementation of Game of Life 
+# Game of Life
 
->> Build 	
-	$ C:\Qt\Tools\mingw1120_64\bin\g++ -std=c++17 -o game_of_life game_of_life.cpp
+This is a C++17 implementation of Conway's Game of Life.
 
->> Test:
-    $ game_of_life.exe --input example\Example.txt --iterations 30 
-    $ game_of_life.exe --input example\Example.txt --iterations 30 --all
+### Building
+To build the program using g++, use the following command:
+```sh
+$ g++ -std=c++17 -o game_of_life game_of_life.cpp
+```
+
+### Testing
+```sh
+$ game_of_life.exe --input example\Example.txt --iterations 30
+$ game_of_life.exe --input example\Example.txt --iterations 30 --all
+```
+
+
